@@ -26,6 +26,7 @@
         }
     </script>
     <style>
+        /* Your existing CSS styles remain unchanged */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         
         html {
@@ -289,6 +290,10 @@
                 <a href="#projects" class="nav-link font-medium hover:text-primary transition-colors">Projects</a>
                 <a href="#skills" class="nav-link font-medium hover:text-primary transition-colors">Skills</a>
                 <a href="#contact" class="nav-link font-medium hover:text-primary transition-colors">Contact</a>
+                <!-- Resume Download Button in Navigation -->
+                <a href="praveen[1].pdf" download="praveen[1].pdf" class="px-4 py-2 bg-primary text-white font-medium rounded-full hover:bg-secondary transition-all transform hover:scale-105 btn-ripple flex items-center">
+                    <i class="fas fa-download mr-2"></i> Resume
+                </a>
             </div>
             
             <button id="mobile-menu-button" class="md:hidden text-gray-500 hover:text-primary focus:outline-none magnetic-button">
@@ -307,6 +312,10 @@
                 <a href="#projects" class="py-2 hover:text-primary transition-colors">Projects</a>
                 <a href="#skills" class="py-2 hover:text-primary transition-colors">Skills</a>
                 <a href="#contact" class="py-2 hover:text-primary transition-colors">Contact</a>
+                <!-- Resume Download Button in Mobile Menu -->
+                <a href="praveen[1].pdf" download="praveen[1].pdf"class="py-2 px-4 bg-primary text-white font-medium rounded-full hover:bg-secondary transition-all flex items-center justify-center btn-ripple">
+                    <i class="fas fa-download mr-2"></i> Download Resume
+                </a>
             </div>
         </div>
     </nav>
@@ -345,25 +354,29 @@
                         <a href="#contact" class="px-8 py-3 border-2 border-white text-white font-medium rounded-full hover:bg-white hover:text-primary transition-all btn-ripple">
                             Contact Me
                         </a>
+                        <!-- Resume Download Button in Hero Section -->
+                        <a href="praveen[1].pdf"download="praveen[1].pdf" class="px-8 py-3 bg-transparent border-2 border-white text-white font-medium rounded-full hover:bg-white hover:text-primary transition-all btn-ripple flex items-center justify-center">
+                            <i class="fas fa-download mr-2"></i> Download Resume
+                        </a>
                     </div>
                 </div>
-             <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-    <div class="relative w-64 h-64 md:w-80 md:h-80 floating">
-        <!-- Spinning SVG Background -->
-        <svg class="absolute w-full h-full animate-spin-slow" viewBox="0 0 200 200">
-            <circle cx="100" cy="100" r="90" fill="#ffffff20" />
-        </svg>
+                <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 floating">
+                        <!-- Spinning SVG Background -->
+                        <svg class="absolute w-full h-full animate-spin-slow" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="90" fill="#ffffff20" />
+                        </svg>
 
-        <!-- Circular Image Container with Blur Effect -->
-        <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-56 h-56 md:w-72 md:h-72 rounded-full bg-white/20 backdrop-blur-sm overflow-hidden border-4 border-white/30 hover:border-white/50 transition-all duration-300">
-                <!-- Actual Image -->
-                <img src="Screenshot 2025-09-28 184247.png" alt="Circular Image" class="w-full h-full object-cover rounded-full" />
+                        <!-- Circular Image Container with Blur Effect -->
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-56 h-56 md:w-72 md:h-72 rounded-full bg-white/20 backdrop-blur-sm overflow-hidden border-4 border-white/30 hover:border-white/50 transition-all duration-300">
+                                <!-- Actual Image -->
+                                <img src="Screenshot 2025-09-28 184247.png" alt="Circular Image" class="w-full h-full object-cover rounded-full" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
             
             <!-- Scroll indicator -->
             <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
@@ -445,6 +458,10 @@
                         </a>
                         <a href="https://www.instagram.com/pvn_rj?igsh=MTk1aTh5Y2JrbjlzeA==" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-all transform hover:scale-110 hover:rotate-12">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                        <!-- Resume Download Button in About Section -->
+                        <a href="Praveen_Resume.pdf" download="Praveen_Raj_Resume.pdf" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-all transform hover:scale-110 hover:rotate-12" title="Download Resume">
+                            <i class="fas fa-download"></i>
                         </a>
                     </div>
                 </div>
@@ -745,6 +762,18 @@
                         </div>
                         <h3 class="text-xl font-bold mb-2">Phone</h3>
                         <p class="text-gray-600">+91-9442059450</p>
+                    </div>
+                    
+                    <!-- Resume Download Button in Contact Section -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mt-6 transform transition-transform hover:translate-y-[-10px]" data-aos="fade-right" data-aos-delay="400">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-file-download text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Resume</h3>
+                        <p class="text-gray-600 mb-4">Download my resume for more details</p>
+                        <a href="Praveen_Resume.pdf" download="Praveen_Raj_Resume.pdf" class="px-4 py-2 bg-primary text-white font-medium rounded-lg hover:bg-secondary transition-all transform hover:scale-105 btn-ripple flex items-center justify-center">
+                            <i class="fas fa-download mr-2"></i> Download Resume
+                        </a>
                     </div>
                 </div>
                 
