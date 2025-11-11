@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://praveen12102004.github.io/Praveen/sitemap.xml
